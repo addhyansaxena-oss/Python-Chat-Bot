@@ -226,7 +226,7 @@ def get_rag_response(query, session_id=None):
         return "Please consult your physician for immediate concerns.", session_id
 
 # ===== Streamlit UI =====
-st.title("Clinical Oncology Virtual Assistant 🩺")
+st.title("Clinical Oncology ChatBOT Assistant 🩺")
 
 if 'messages' not in st.session_state:
     st.session_state.messages = []
